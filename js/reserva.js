@@ -23,7 +23,7 @@ function reserva(){
         }).then((result) => {
          if (result.isConfirmed) {
           Swal.fire({
-             title: `${elemento} + " Su reserva a sido exitosa.`, 
+             title: `${elemento}  Su reserva a sido exitosa.`, 
              icon: "success"
             });S
          }
